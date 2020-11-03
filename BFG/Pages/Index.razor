@@ -4,40 +4,173 @@
 <div class="jumbotron" style="background: rgb(17,17,17);">
     <div class="row">
         <div class="col">
-            <h1 style="border-color: rgb(255,255,255);">Benevolence Financial Group</h1>
-            <p style="border-color: rgb(255,255,255);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p><a class="btn btn-primary" role="button" style="background: rgb(255,92,0);">Talk to us<i class="fa fa-arrow-circle-right"></i></a>
-            <p></p>
+            <h1 style="color:white">Benevolence Financial Group</h1>
+            <p style="color:white">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <RadzenButton Text="Talk with us" Icon="arrow_right_alt"></RadzenButton>
         </div>
-        <div class="col" id="col2"><img src="dogs/architecture-1836070_1920.jpg" /></div>
+        <div class-"col">
+        </div>
     </div>
 </div>
 
 
 
 <div class="card shadow mb-3">
-        <div class="card-header py-3">
-            <p class="text-primary m-0 font-weight-bold">Home Loan Comparisons</p>
+    <div class="card-header py-3">
+        <p style="text-align:center;font-size:50px;">Compare Home Loans</p>
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group"><label for="I want to borrow *"><strong>I want to borrow *</strong></label><input class="form-control" type="number" placeholder="$" name="I want to borrow *" /></div>
+                </div>
+                <div class="col">
+                    <div class="form-group"><label for="Property Value *"><strong>Property Value *</strong></label><input class="form-control" type="number" placeholder="$" name="Property Value *" /></div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="Property Type *"><strong>Property Type *</strong></label>
+                        <br />
+                        <select style="height:37px;" id="cars" name="cars">
+                            <option value="volvo">Volvo XC90</option>
+                            <option value="saab">Saab 95</option>
+                            <option value="mercedes">Mercedes SLK</option>
+                            <option value="audi">Audi TT</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="Repayment Type"><strong>Repayment Type</strong></label>
+                        <br />
+                        <select style="height:37px;width:337px;" id="cars" name="cars">
+                            <option value="volvo">Volvo XC90</option>
+                            <option value="saab">Saab 95</option>
+                            <option value="mercedes">Mercedes SLK</option>
+                            <option value="audi">Audi TT</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="Loan Type"><strong>Loan Type</strong></label>
+                        <br />
+                        <select style="height:37px;width:337px;" id="cars" name="cars">
+                            <option value="volvo">Volvo XC90</option>
+                            <option value="saab">Saab 95</option>
+                            <option value="mercedes">Mercedes SLK</option>
+                            <option value="audi">Audi TT</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <br />
+                    <RadzenButton Text="Compare" />
+                </div>
+            </div> @*row*@
+            <text>* Required</text>
+        </form>
+    </div>
+</div>
+
+<div class="features">
+    <div class="row">
+        <div class="col">
+            <RadzenIcon Text="Hello" Icon="home" Style="
+        background-color: whitesmoke;
+        widthfont-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3em;
+        display: inline-block;
+        width: 6em;
+        height: 4em;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga';
+        column-gap:1px;
+        " />
         </div>
-        <div class="card-body">
-            <form>
-                <div class="form-row">
-                    <div class="col">
-                        <div class="form-group"><label for="username"><strong>Username</strong></label><input class="form-control" type="text" placeholder="user.name" name="username" /></div>
-                    </div>
-                    <div class="col">
-                        <div class="form-group"><label for="email"><strong>Email Address</strong></label><input class="form-control" type="email" placeholder="user@example.com" name="email" /></div>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col">
-                        <div class="form-group"><label for="first_name"><strong>First Name</strong></label><input class="form-control" type="text" placeholder="John" name="first_name" /></div>
-                    </div>
-                    <div class="col">
-                        <div class="form-group"><label for="last_name"><strong>Last Name</strong></label><input class="form-control" type="text" placeholder="Doe" name="last_name" /></div>
-                    </div>
-                    <input type="text" class="form-control" placeholder="USA" name="country" />
-                </div>
-                <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Save Settings</button></div>
-            </form>
+        <div class="col">
+            <div class="col">
+                <RadzenIcon Icon="attach_money" Style="        background-color: whitesmoke;
+        widthfont-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3em;
+        display: inline-block;
+        width: 6em;
+        height: 4em;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga';
+        column-gap: 4px;
+    " />
+            </div>
+        </div>
+        <div class="col">
+            <div class="col">
+                <RadzenIcon Icon="nature_people" Style="        background-color: whitesmoke;
+        widthfont-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3em;
+        display: inline-block;
+        width: 6em;
+        height: 4em;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga';
+    " />
+            </div>
+        </div>
+        <div class="col">
+            <div class="col">
+                <RadzenIcon Icon="all_inclusive" Style="        background-color: whitesmoke;
+        widthfont-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3em;
+        display: inline-block;
+        width: 6em;
+        height: 4em;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga';
+    " />
+            </div>
         </div>
     </div>
+</div>
+
