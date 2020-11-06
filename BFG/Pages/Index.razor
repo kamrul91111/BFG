@@ -23,55 +23,29 @@
         <form>
             <div class="form-row">
                 <div class="col">
-                    <div class="form-group"><label for="I want to borrow *"><strong>I want to borrow *</strong></label><input class="form-control" type="number" placeholder="$" name="I want to borrow *" /></div>
+                    <div class="form-group"><label for="borrowing limit">I want to borrow *</label><input class="form-control" type="number" placeholder="" name="borrowing limit" /></div>
                 </div>
                 <div class="col">
-                    <div class="form-group"><label for="Property Value *"><strong>Property Value *</strong></label><input class="form-control" type="number" placeholder="$" name="Property Value *" /></div>
+                    <div class="form-group"><label for="property value">Property value *</label><input class="form-control" type="number" placeholder="" name="property value" /></div>
                 </div>
                 <div class="col">
-                    <div class="form-group">
-                        <label for="Property Type *"><strong>Property Type *</strong></label>
-                        <br />
-                        <select style="height:37px;" id="cars" name="cars">
-                            <option value="volvo">Volvo XC90</option>
-                            <option value="saab">Saab 95</option>
-                            <option value="mercedes">Mercedes SLK</option>
-                            <option value="audi">Audi TT</option>
-                        </select>
-                    </div>
+                    <div class="form-group"><label for="Property purpose">Property purpose *</label><select id="inputPurpose" class="form-control"><option selected>Please select</option></select></div>
                 </div>
             </div>
             <div class="form-row">
                 <div class="col">
-                    <div class="form-group">
-                        <label for="Repayment Type"><strong>Repayment Type</strong></label>
-                        <br />
-                        <select style="height:37px;width:337px;" id="cars" name="cars">
-                            <option value="volvo">Volvo XC90</option>
-                            <option value="saab">Saab 95</option>
-                            <option value="mercedes">Mercedes SLK</option>
-                            <option value="audi">Audi TT</option>
-                        </select>
-                    </div>
+                    <div class="form-group"><label for="Repayment type">Repayment type</label><input class="form-control" type="text" placeholder="" name="first_name" /></div>
                 </div>
                 <div class="col">
-                    <div class="form-group">
-                        <label for="Loan Type"><strong>Loan Type</strong></label>
-                        <br />
-                        <select style="height:37px;width:337px;" id="cars" name="cars">
-                            <option value="volvo">Volvo XC90</option>
-                            <option value="saab">Saab 95</option>
-                            <option value="mercedes">Mercedes SLK</option>
-                            <option value="audi">Audi TT</option>
-                        </select>
-                    </div>
+                    <div class="form-group"><label for="Loan type">Loan type</label><input class="form-control" type="text" placeholder="" name="last_name" /></div>
                 </div>
                 <div class="col">
                     <br />
-                    <RadzenButton Text="Compare" />
+                    <button type="submit" style="background: rgb(255,92,0);" class="form-control">COMPARE<span>&#8594;</span></button>
                 </div>
-            </div> @*row*@
-            <text>* Required</text>
+            </div>
+            *Required
+            <hr />
         </form>
     </div>
 </div>
